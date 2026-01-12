@@ -1,48 +1,43 @@
 <!DOCTYPE html>
-<html lang="es" itemscope itemtype="https://schema.org/WebSite">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KOOPODCAST</title>
-    <meta name="description" content="KOOPODCAST conecta amantes de la música con contenido exclusivo en SoundCloud y Spotify. Escucha nuestros podcasts y descubre artistas emergentes.">
-    <meta name="keywords" content="KOOPODCAST, música, podcast, SoundCloud, Spotify, streaming, artistas emergentes">
+    <title>KOOPODCAST | Plataforma Oficial de Podcast</title>
+    <meta name="description" content="KOOPODCAST: Plataforma oficial de podcast con perfiles en SoundCloud y Spotify. Contenido exclusivo y profesional.">
+    <meta name="keywords" content="KOOPODCAST, podcast, SoundCloud, Spotify, audio, episodios, streaming">
     <meta name="author" content="KOOPODCAST">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://koopodcast.com">
     
-    <meta property="og:title" content="KOOPODCAST | Plataforma Musical Profesional">
-    <meta property="og:description" content="Conecta con los mejores perfiles musicales en SoundCloud y Spotify.">
+    <meta property="og:title" content="KOOPODCAST | Plataforma Oficial de Podcast">
+    <meta property="og:description" content="Accede a nuestros perfiles oficiales en SoundCloud y Spotify">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://koopodcast.com">
-    <meta property="og:image" content="https://koopodcast.com/images/og-image.jpg">
+    <meta property="og:url" content="https://koopodcast.github.io/oficial/">
+    <meta property="og:image" content="https://github.com/koopodcast/oficial/raw/refs/heads/main/KOOPODCAST.jpg">
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KOOPODCAST">
-    <meta name="twitter:description" content="Plataforma musical profesional con contenido exclusivo">
+    <meta name="twitter:description" content="Plataforma oficial de podcast">
+    <meta name="twitter:image" content="https://github.com/koopodcast/oficial/raw/refs/heads/main/KOOPODCAST.jpg">
     
     <link rel="stylesheet" href="core.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght=800;900&display=swap" rel="stylesheet">
     
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎤</text></svg>">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎤</text></svg>">
+    <link rel="icon" href="https://github.com/koopodcast/oficial/raw/refs/heads/main/favicon.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="https://github.com/koopodcast/oficial/raw/refs/heads/main/favicon.jpg">
     
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "KOOPODCAST",
-        "url": "https://koopodcast.com",
-        "description": "Plataforma musical profesional con contenido exclusivo en SoundCloud y Spotify",
+        "url": "https://koopodcast.github.io/oficial/",
+        "description": "Plataforma oficial de KOOPODCAST con perfiles en SoundCloud y Spotify",
         "publisher": {
             "@type": "Organization",
             "name": "KOOPODCAST",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://koopodcast.com/logo.png"
-            }
+            "logo": "https://github.com/koopodcast/oficial/raw/refs/heads/main/KOOPODCAST.jpg"
         },
         "sameAs": [
             "https://on.soundcloud.com/aXXGrWOqzuzZ8tweID",
@@ -54,31 +49,29 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav class="navbar" role="navigation" aria-label="Navegación principal">
+            <nav class="navbar">
                 <a href="#" class="logo">
-                    <i class="fas fa-microphone"></i>
+                    <img src="https://github.com/koopodcast/oficial/raw/refs/heads/main/favicon.jpg" alt="KOOPODCAST Logo" width="40" height="40" loading="lazy">
                     <span>KOOPODCAST</span>
                 </a>
-                <button class="menu-toggle" id="menuToggle" aria-label="Menú" aria-expanded="false">
+                <button class="menu-toggle" id="menuToggle" aria-label="Menú">
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul class="nav-links">
-                    <li><a href="#home" class="active">Inicio</a></li>
+                    <li><a href="#home">Inicio</a></li>
                     <li><a href="#profiles">Perfiles</a></li>
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero" id="home" itemscope itemtype="https://schema.org/CreativeWork">
+        <section class="hero" id="home">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title" itemprop="headline">Escucha las <span class="highlight">transmisiones</span> de nuestros podcast</h1>
-                    <p class="hero-subtitle" itemprop="description">Conecta con los perfiles y infórmate del contenido en las plataformas más populares.</p>
-                    <a href="#profiles" class="btn-primary">Explorar</a>
+                    <h1 class="hero-title">KOOPODCAST <span class="highlight">Oficial</span></h1>
+                    <p class="hero-subtitle">Accede directamente a nuestros perfiles oficiales en las plataformas de streaming</p>
+                    <a href="#profiles" class="btn-primary">Ver Perfiles</a>
                 </div>
             </div>
         </section>
@@ -87,7 +80,7 @@
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Perfiles <span class="highlight">Oficiales</span></h2>
-                    <p class="section-subtitle">Accede directamente →</p>
+                    <p class="section-subtitle">Conecta con nuestro contenido en las principales plataformas</p>
                 </div>
 
                 <div class="profiles-grid">
@@ -97,15 +90,20 @@
                         </div>
                         <div class="profile-content">
                             <h3 class="profile-title" itemprop="name">SoundCloud Podcast</h3>
+                            <p class="profile-description" itemprop="description">Contenido exclusivo disponible en nuestra plataforma de SoundCloud</p>
                             <div class="profile-stats">
                                 <div class="stat">
                                     <i class="fas fa-headphones"></i>
-                                    <span> 2 Episodios / 1 Temp</span>
+                                    <span itemprop="episodeNumber">2 Episodios</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-seasonal"></i>
+                                    <span>1 Temporada</span>
                                 </div>
                             </div>
                             <a href="https://on.soundcloud.com/aXXGrWOqzuzZ8tweID" target="_blank" rel="noopener noreferrer" class="btn-profile" itemprop="url">
                                 <i class="fas fa-external-link-alt"></i>
-                                Visitar
+                                Visitar SoundCloud
                             </a>
                         </div>
                     </article>
@@ -116,41 +114,23 @@
                         </div>
                         <div class="profile-content">
                             <h3 class="profile-title" itemprop="name">Spotify Podcast</h3>
+                            <p class="profile-description" itemprop="description">Sintoniza nuestro podcast directamente en Spotify</p>
                             <div class="profile-stats">
                                 <div class="stat">
                                     <i class="fas fa-microphone"></i>
-                                    <span> 2 Episodios / 1 Temp</span>
+                                    <span itemprop="episodeNumber">2 Episodios</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-seasonal"></i>
+                                    <span>1 Temporada</span>
                                 </div>
                             </div>
                             <a href="https://open.spotify.com/show/0ZNqvdNiPTubc3wNEdfkEq" target="_blank" rel="noopener noreferrer" class="btn-profile" itemprop="url">
                                 <i class="fas fa-external-link-alt"></i>
-                                Escuchar Ahora
+                                Escuchar en Spotify
                             </a>
                         </div>
                     </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-section" id="about">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <h2 class="section-title">Sobre <span class="highlight">KOOPODCAST</span></h2>
-                        <p>Es una plataforma dedicada a conectar a los emprendedoras digitales y pequeños negocios.</p>
-                        <div class="features">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact-section" id="contact">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Mantente <span class="highlight">Conectado</span></h2>
-                </div>
-                <div class="contact-form">
                 </div>
             </div>
         </section>
@@ -161,9 +141,10 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <i class="fas fa-microphone"></i>
+                        <img src="https://github.com/koopodcast/oficial/raw/refs/heads/main/favicon.jpg" alt="KOOPODCAST Logo" width="30" height="30" loading="lazy">
                         <span>KOOPODCAST</span>
                     </a>
+                    <p>Plataforma oficial de podcast</p>
                 </div>
                 <div class="footer-links">
                     <h4>Enlaces</h4>
