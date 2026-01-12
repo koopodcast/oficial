@@ -1,215 +1,191 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" itemscope itemtype="https://schema.org/WebSite">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KOOPODCAST - Plataforma profesional de podcasts | KOOWEXA & KOOPAGES</title>
-    
-    <meta name="description" content="Escucha podcasts exclusivos sobre KOOWEXA y KOOPAGES. Episodios profesionales disponibles en SoundCloud y WhatsApp.">
-    <meta name="keywords" content="podcast, KOOWEXA, KOOPAGES, audio, episodios, soundcloud, tecnología, innovación">
+    <title>KOOPODCAST</title>
+    <meta name="description" content="KOOPODCAST conecta amantes de la música con contenido exclusivo en SoundCloud y Spotify. Escucha nuestros podcasts y descubre artistas emergentes.">
+    <meta name="keywords" content="KOOPODCAST, música, podcast, SoundCloud, Spotify, streaming, artistas emergentes">
     <meta name="author" content="KOOPODCAST">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://koopodcast.com">
     
-    <meta property="og:title" content="KOOPODCAST - Plataforma profesional de podcasts">
-    <meta property="og:description" content="Descubre podcasts de alta calidad sobre KOOWEXA y KOOPAGES.">
-    <meta property="og:url" content="https://koopodcast.github.io/oficial/">
+    <meta property="og:title" content="KOOPODCAST | Plataforma Musical Profesional">
+    <meta property="og:description" content="Conecta con los mejores perfiles musicales en SoundCloud y Spotify.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQ1IDMwSDE1VjkwaDMwVjMwWiIgZmlsbD0iI0ZGM0QwMCIvPjxwYXRoIGQ9Ik00NSAzMEw3NSA2MEw0NSA5MFYzMFoiIGZpbGw9IiNGRjZDQ0IiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjkwIiByPSIzMCIgZmlsbD0iI0ZGM0QwMCIvPjxwYXRoIGQ9Ik02OCA4M2wtOC04IDgtOCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg==">
+    <meta property="og:url" content="https://koopodcast.com">
+    <meta property="og:image" content="https://koopodcast.com/images/og-image.jpg">
+    
     <meta name="twitter:card" content="summary_large_image">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M30 20H10v60h20V20z' fill='%23FF3D00'/><path d='M30 20l30 30-30 30V20z' fill='%23FF6B3D'/><circle cx='70' cy='80' r='20' fill='%23FF3D00'/><path d='M65 73l-5 5 5 5' stroke='%23fff' stroke-width='3' stroke-linecap='round'/></svg>" type="image/svg+xml">
+    <meta name="twitter:title" content="KOOPODCAST">
+    <meta name="twitter:description" content="Plataforma musical profesional con contenido exclusivo">
     
     <link rel="stylesheet" href="core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎤</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎤</text></svg>">
     
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "KOOPODCAST",
-        "url": "https://koopodcast.github.io/oficial/",
-        "description": "Plataforma profesional de podcasts sobre KOOWEXA y KOOPAGES",
+        "url": "https://koopodcast.com",
+        "description": "Plataforma musical profesional con contenido exclusivo en SoundCloud y Spotify",
         "publisher": {
             "@type": "Organization",
             "name": "KOOPODCAST",
             "logo": {
                 "@type": "ImageObject",
-                "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQ1IDMwSDE1VjkwaDMwVjMwWiIgZmlsbD0iI0ZGM0QwMCIvPjxwYXRoIGQ9Ik00NSAzMEw3NSA2MEw0NSA5MFYzMFoiIGZpbGw9IiNGRjZDQ0IiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjkwIiByPSIzMCIgZmlsbD0iI0ZGM0QwMCIvPjxwYXRoIGQ9Ik02OCA4M2wtOC04IDgtOCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg=="
+                "url": "https://koopodcast.com/logo.png"
             }
-        }
+        },
+        "sameAs": [
+            "https://on.soundcloud.com/aXXGrWOqzuzZ8tweID",
+            "https://open.spotify.com/show/0ZNqvdNiPTubc3wNEdfkEq"
+        ]
     }
     </script>
 </head>
 <body>
-    <header class="header" role="banner">
-        <div class="container nav-container">
-            <a href="#home" class="logo" aria-label="KOOPODCAST - Inicio">
-                <span class="logo-icon" aria-hidden="true"></span>
-                <span>KOO</span>PODCAST
-            </a>
-            
-            <button class="mobile-toggle" id="menuToggle" aria-label="Menú de navegación" aria-expanded="false">
-                <span id="menuIcon">☰</span>
-            </button>
-            
-            <nav class="nav" id="navMenu" aria-label="Navegación principal">
-                <a href="#podcasts">Podcasts</a>
-                <a href="#profile">Perfil</a>
-                <a href="#about">Acerca</a>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Navegación principal">
+                <a href="#" class="logo">
+                    <i class="fas fa-microphone"></i>
+                    <span>KOOPODCAST</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menú" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Inicio</a></li>
+                    <li><a href="#profiles">Perfiles</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero" id="home" role="banner">
-        <div class="container fade-in">
-            <h1 class="hero-title">Escucha lo que <span class="highlight">queremos transmitir</span></h1>
-            <p class="hero-subtitle">Descubre podcasts exclusivos sobre KOOWEXA y KOOPAGES. Contenido profesional disponible en SoundCloud y WhatsApp.</p>
-            <div class="hero-actions">
-                <a href="#podcasts" class="btn btn-primary">🎧 Explorar Episodios</a>
-                <a href="#profile" class="btn btn-secondary">📢 Seguir en SoundCloud</a>
-            </div>
-        </div>
-    </section>
-
-    <main class="container">
-        <section id="podcasts" class="fade-in">
-            <div class="section-header">
-                <h2>Últimos Episodios</h2>
-                <p class="section-subtitle">Contenido exclusivo y profesional</p>
-            </div>
-            
-            <div class="podcasts-grid">
-                <article class="podcast-card" itemscope itemtype="https://schema.org/PodcastEpisode">
-                    <div class="card-badge">Nuevo</div>
-                    <div class="card-header">
-                        <h3 itemprop="name">Introducción a KOOWEXA & KOOPAGES</h3>
-                        <span class="badge" itemprop="episodeNumber">Episodio 1</span>
-                    </div>
-                    
-                    <p itemprop="description" class="card-description">
-                        Descubre todo sobre nuestras plataformas. Explicación completa en español sobre funcionalidades y visión.
-                    </p>
-                    
-                    <div class="podcast-meta">
-                        <span class="meta-item" itemprop="duration">⏱️ 2 min</span>
-                        <span class="meta-item" itemprop="datePublished">📅 Enero 2026</span>
-                    </div>
-                    
-                    <a href="https://on.soundcloud.com/BgXJwPUodOqB4qlfnU" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="btn btn-sm"
-                       itemprop="url">
-                        ▶️ Escuchar ahora
-                    </a>
-                </article>
-                
-                <article class="podcast-card coming-soon">
-                    <div class="card-badge">Próximamente</div>
-                    <div class="card-header">
-                        <h3>Avances y Novedades</h3>
-                        <span class="badge">Episodio 2</span>
-                    </div>
-                    
-                    <p class="card-description">
-                        Mantente al día con las últimas actualizaciones y características de nuestras plataformas.
-                    </p>
-                    
-                    <div class="podcast-meta">
-                        <span class="meta-item">⏱️ Próximamente</span>
-                        <span class="meta-item">📅 Febrero 2026</span>
-                    </div>
-                    
-                    <button class="btn btn-sm btn-disabled" disabled>
-                        🔔 Notificarme
-                    </button>
-                </article>
-            </div>
-        </section>
-
-        <section id="profile" class="profile fade-in" itemscope itemtype="https://schema.org/PodcastSeries">
-            <div class="section-header">
-                <h2>Perfil Oficial</h2>
-                <p class="section-subtitle">Síguenos en nuestras plataformas</p>
-            </div>
-            
-            <div class="profile-content">
-                <div class="platform-card">
-                    <div class="platform-icon">🎧</div>
-                    <h3>SoundCloud</h3>
-                    <p>Escucha todos nuestros episodios en alta calidad</p>
-                    <a href="https://on.soundcloud.com/FxxBMysdfIqKg9Mx9x" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="btn btn-primary"
-                       itemprop="url">
-                        Visitar Perfil →
-                    </a>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-icon">📱</div>
-                    <h3>WhatsApp</h3>
-                    <p>Recibe notificaciones y enlaces directos</p>
-                    <button class="btn btn-secondary" onclick="alert('Próximamente disponible')">
-                        Unirse al Grupo
-                    </button>
+    <main>
+        <section class="hero" id="home" itemscope itemtype="https://schema.org/CreativeWork">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" itemprop="headline">Escucha las <span class="highlight">transmisiones</span> de nuestros podcast</h1>
+                    <p class="hero-subtitle" itemprop="description">Conecta con los perfiles y infórmate del contenido en las plataformas más populares.</p>
+                    <a href="#profiles" class="btn-primary">Explorar</a>
                 </div>
             </div>
         </section>
-        
-        <section id="about" class="about fade-in">
-            <div class="section-header">
-                <h2>Acerca de KOOPODCAST</h2>
+
+        <section class="profiles-section" id="profiles">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Perfiles <span class="highlight">Oficiales</span></h2>
+                    <p class="section-subtitle">Accede directamente →</p>
+                </div>
+
+                <div class="profiles-grid">
+                    <article class="profile-card soundcloud" itemscope itemtype="https://schema.org/AudioObject">
+                        <div class="profile-icon">
+                            <i class="fab fa-soundcloud"></i>
+                        </div>
+                        <div class="profile-content">
+                            <h3 class="profile-title" itemprop="name">SoundCloud Podcast</h3>
+                            <div class="profile-stats">
+                                <div class="stat">
+                                    <i class="fas fa-headphones"></i>
+                                    <span> 2 Episodios / 1 Temp</span>
+                                </div>
+                            </div>
+                            <a href="https://on.soundcloud.com/aXXGrWOqzuzZ8tweID" target="_blank" rel="noopener noreferrer" class="btn-profile" itemprop="url">
+                                <i class="fas fa-external-link-alt"></i>
+                                Visitar
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="profile-card spotify" itemscope itemtype="https://schema.org/PodcastSeries">
+                        <div class="profile-icon">
+                            <i class="fab fa-spotify"></i>
+                        </div>
+                        <div class="profile-content">
+                            <h3 class="profile-title" itemprop="name">Spotify Podcast</h3>
+                            <div class="profile-stats">
+                                <div class="stat">
+                                    <i class="fas fa-microphone"></i>
+                                    <span> 2 Episodios / 1 Temp</span>
+                                </div>
+                            </div>
+                            <a href="https://open.spotify.com/show/0ZNqvdNiPTubc3wNEdfkEq" target="_blank" rel="noopener noreferrer" class="btn-profile" itemprop="url">
+                                <i class="fas fa-external-link-alt"></i>
+                                Escuchar Ahora
+                            </a>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="about-content">
-                <p>Plataforma oficial de podcasts de KOOWEXA y KOOPAGES. Creamos contenido exclusivo para mantenerte informado sobre innovación, tecnología y nuestras soluciones.</p>
-                <div class="features">
-                    <div class="feature">
-                        <span class="feature-icon">🎯</span>
-                        <h4>Contenido Exclusivo</h4>
-                        <p>Episodios únicos sobre nuestras plataformas</p>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Sobre <span class="highlight">KOOPODCAST</span></h2>
+                        <p>Es una plataforma dedicada a conectar a los emprendedoras digitales y pequeños negocios.</p>
+                        <div class="features">
+                        </div>
                     </div>
-                    <div class="feature">
-                        <span class="feature-icon">⚡</span>
-                        <h4>Actualizaciones Rápidas</h4>
-                        <p>Información oportuna sobre novedades</p>
-                    </div>
-                    <div class="feature">
-                        <span class="feature-icon">🎧</span>
-                        <h4>Alta Calidad</h4>
-                        <p>Audio profesional y contenido estructurado</p>
-                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mantente <span class="highlight">Conectado</span></h2>
+                </div>
+                <div class="contact-form">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer" role="contentinfo">
+    <footer class="footer">
         <div class="container">
-            <div class="footer-main">
+            <div class="footer-content">
                 <div class="footer-brand">
-                    <div class="logo">KOOPODCAST</div>
-                    <p class="footer-tagline">Innovación en audio digital</p>
+                    <a href="#" class="logo">
+                        <i class="fas fa-microphone"></i>
+                        <span>KOOPODCAST</span>
+                    </a>
                 </div>
-                
-                <div class="footer-cta">
-                    <p>¿Listo para escuchar?</p>
-                    <a href="#podcasts" class="btn btn-sm btn-light">Comenzar ahora</a>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#profiles">Perfiles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Plataformas</h4>
+                    <ul>
+                        <li><a href="https://on.soundcloud.com/aXXGrWOqzuzZ8tweID" target="_blank" rel="noopener noreferrer">SoundCloud</a></li>
+                        <li><a href="https://open.spotify.com/show/0ZNqvdNiPTubc3wNEdfkEq" target="_blank" rel="noopener noreferrer">Spotify</a></li>
+                    </ul>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; 2026 KOOPODCAST. Todos los derechos reservados.</p>
-                <p class="footer-note">Parte de la familia KOOWEXA & KOOPAGES</p>
+                <p>&copy; <span id="currentYear"></span> KOOPODCAST. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <script src="utils.js"></script>
-    <script src="core.js"></script>
+    <script src="core.js" defer></script>
 </body>
 </html>
